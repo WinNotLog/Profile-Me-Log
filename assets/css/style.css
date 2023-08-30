@@ -36,10 +36,10 @@ body {
 
 .profile {
     height: 85vh;
-    width: 660px;
+    width: 500px;
     color: white;
-    background-color: rgb(88 88 88 / 75%);
-    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
     margin: 0 30px;
 }
@@ -51,8 +51,8 @@ body {
 }
 
 .avatar img {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 4px solid blue;
 }
@@ -60,13 +60,13 @@ body {
 .desc {
     padding-top: 12px;
     text-align: center; 
-    color: rgb(0, 0, 0);
+    color: grey;
     font-style: italic;
     font-weight: 400;
 }
 
 .desc h2 {
-    color: rgb(255, 255, 255);
+    color: black;
     font-style: italic;
     padding: 5px 0;
 }
@@ -85,7 +85,7 @@ body {
 
 .informations p a{
     color: black;
-    font-size: 25px;
+    font-size: large;
 }
 
 .informations .icon {
@@ -95,29 +95,27 @@ body {
 
 .fa-facebook {
     color: blue;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .fa-github {
     color: black;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .fa-instagram {
     color: rgb(226, 43, 186);
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .footer {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: black;
     font-weight: 700;
-    font-size: 25px;
 }
 
 .footer a {
-    color: rgb(0, 0, 0);
-    font-size: 25px;
+    color: blue;
 }
 
 .fa-brands {
@@ -131,7 +129,7 @@ body {
 
 .area{ 
     width: 100%;
-    height: 100vh;
+    height:100vh;
     position: absolute;
     z-index: -1;
 }
